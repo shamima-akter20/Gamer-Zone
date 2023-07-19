@@ -1,0 +1,485 @@
+*{
+    box-sizing: border-box;
+}
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Great Vibes', cursive; */
+/* header--------------------------------------------------------------- */
+.nav-section{
+max-width: 1200px;
+margin: 0 auto;
+width: 100%;
+display: flex;
+height: 70px;
+}
+
+.icon-name{
+width: 50%;
+display: flex;
+}
+
+.icon-name img{
+height: 30px;
+ margin: auto ;
+ margin-left: 50px;
+ margin-right: 5px;  
+}
+
+.gigi{
+ font-family: 'Archivo Black', sans-serif
+}
+
+.menus{
+width: 50%;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+
+
+.menus a{
+text-decoration: none;
+font-family: 'Geologica', sans-serif;
+color: black;
+display: flex;
+}
+
+
+.iconi i{
+padding-left: 15px;
+gap: 15px;  
+}
+
+
+.menus .login-btn{
+    background-color: rgb(236, 234, 234);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-tiktok{
+    color: black;
+}
+
+/* --------------------Header Ends here------------------------------------ */
+
+
+
+
+
+
+
+
+/* ------------------Play section starts--------------------------------- */
+
+
+.play-container{ 
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+display: flex;
+}
+
+
+.play-text{
+    font-family: 'Geologica', sans-serif;
+    width: 50%;
+    text-align: start;
+    padding-left: 80px;
+    padding-top: 80px;  
+}
+
+
+.play-para{
+    font-family: 'Geologica', sans-serif;
+    color: rgb(44, 0, 44);
+    font-size: 30px;    
+}
+
+.play-head{
+    background-image: linear-gradient( rgb(196, 66, 109),  rgb(113, 40, 182));
+    color: transparent;
+    -webkit-background-clip: text; 
+    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif;
+     
+}
+
+
+.fa-circle-play{
+    color: rgb(185, 26, 79);
+}
+
+.fa-download{
+    color: rgb(185, 26, 79);
+}
+
+.fa-user-group{
+    color: rgb(185, 26, 79);
+}
+.play-img{
+    width: 50%;
+}
+
+.play-img img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.d-btn{
+ display: flex;
+ gap: 20px;
+ height: 40px;
+ 
+}
+
+.btn1{
+ width: 100px;
+ border-radius: 20px;
+ font-weight: 700;
+ background-color: rgb(253, 88, 143);
+ color: aliceblue;
+ transition: .4s;
+ border: none;
+
+}
+
+.btn1:hover{
+ transform:scale(1.1);
+}
+
+.btn2{
+ width: 100px;
+ border-radius: 20px;
+ font-weight: 700;
+ background-color: rgb(69, 149, 255);
+ color: aliceblue;
+ transition: .4s;
+border: none;
+}
+
+
+  .btn2:hover{
+    transform:scale(1.1);
+  }
+
+
+/* ------------------Play section Ends--------------------------------- */
+
+
+
+
+
+
+
+
+/* ----------------------------Funny Video section--------------------- */
+
+  .video-container{
+    
+    margin: 50px auto 0;
+    width: 70%;
+    min-height: 50px;
+    padding: 20px;
+    
+  }
+
+
+  .video-text{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding-top: 60px;
+  }
+
+  .pantush{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    color: rgb(44, 0, 44);
+  }
+
+  .antush{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient( rgb(196, 66, 109),  rgb(113, 40, 182));
+    color: transparent;
+     -webkit-background-clip: text; 
+     
+  }
+
+  .video-text p{
+    padding-bottom: 50px;
+  }
+
+ 
+  .video-img-container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: 30px;
+    
+  } 
+
+ 
+.image-container {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 500px;
+    transition: filter 0.3s ease;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 36, 73);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.image-container:hover img {
+    filter: brightness(30%);
+    border: 5px solid rgb(255, 81, 110);
+    border-radius: 30px;
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1;
+}
+/* -------------------------Funny Video section ends ------------------ */
+
+
+
+
+
+
+
+
+
+
+
+.play-game-container{
+padding-top: 20px;
+width: 1200px;
+display: flex;
+height: 50vh;
+margin: 60px;
+gap: 40px;
+padding-bottom: 50px;
+}
+
+
+
+.play-game-text h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 35px;
+    
+    
+}
+
+.play-game-text span{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 35px;
+    background-image: linear-gradient( rgb(197, 46, 96),  rgb(113, 40, 182));
+    color: transparent;
+     -webkit-background-clip: text; 
+}
+
+.play-game-text p{
+    
+}
+
+
+.play-game-image{
+   width: 50%;
+   
+}
+
+.play-game-image img{
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+}
+
+
+
+.img-2{
+position: relative;
+bottom: 255px;
+right: 90px;
+}
+  
+
+.img-2 img{
+    height: 300px;
+    width: 280px;
+   
+}
+/* --------------------------------------------------------------- */
+
+
+
+
+
+.smallu{
+background-color: white;
+padding-top: 20px;
+padding-bottom: 50px;
+height: 40vh;
+
+
+}
+
+.small-card{ 
+display: flex;
+flex-wrap: wrap;
+grid-template-columns: repeat(5,1fr);
+align-items: center;
+justify-content: center;
+text-align: center;
+padding-top: 120px;
+}
+
+.small-design{
+   padding: 20px;
+}
+
+
+.game-btn{
+display: flex;
+width: 200px;
+border-radius: 30px;
+border: none;
+gap: 10px;
+/* background: gainsboro; */
+/* transition: .4s; */
+}
+
+
+.game-btn:hover{
+    /* transform:scale(1.1); */
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(177, 4, 33);
+  }
+
+
+.small-design img{
+    height: 40px;
+}
+ 
+
+.small-design P{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+
+
+/* ------------  FOOTER  ------------ */
+
+.footer-container{
+  background-color:  rgb(24, 1, 24);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 60vh;
+  padding: 40px;
+}
+
+.logo-footer{
+   padding: 20px;
+}
+
+
+.icon-names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-names img{
+   
+   height: 30px;
+    margin: auto ;
+    margin-left: 50px;
+    margin-right: 5px;
+}    
+
+.mimi{
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+}
+
+
+
+
+
+.suppot-footer{
+    font-family: 'Geologica', sans-serif;
+    padding: 20px;
+  
+}
+
+.suppot-footer a{
+text-decoration: none; 
+justify-content: space-between;
+padding: 12px;
+color: white;
+font-size: 13px;
+}
+
+
+.icon-footer{
+    text-decoration: none; 
+justify-content: space-between;
+padding: 30px;
+color: white;
+font-size: 30px;
+}
+
+.icon-footer i{
+    padding: 12px;
+}
+
+.policy-footer{
+    font-family: 'Geologica', sans-serif;
+    padding: 20px;
+}
+
+.policy-footer a{
+    text-decoration: none; 
+justify-content: space-between;
+padding: 12px;
+color: white;
+font-size: 10px;
+
+}
+
+
+.developer-footer{
+padding: 14px;
+color: white;
+font-size: 10px;
+font-family: 'Geologica', sans-serif;
+}

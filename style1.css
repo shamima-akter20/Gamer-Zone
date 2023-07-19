@@ -1,0 +1,159 @@
+/*------------------ mobile version -----------------*/
+@media screen and (max-width: 576px) {
+
+    .nav-section{
+        flex-direction: column;
+        height: 30vh;
+        border: 2px solid red;
+    }
+    .icon-name{
+      margin:0 auto;
+    }
+    
+    .menus{
+        flex-direction: column;
+        margin:0 auto;
+        width: 100%;
+    }
+    
+    .menus a{
+        padding-top: 20px;
+    }
+    
+    .menus .login-btn{
+        margin-top: 40px;
+    } 
+
+
+    .play-container{
+       
+        flex-direction: column;
+    }
+    
+    .play-text{
+        width: 100%;
+    }
+    
+    .play-img{
+        width: 100%;
+    }
+    
+    .play-container{
+        flex-direction: column-reverse;
+    }  
+      
+    .play-img{
+        padding-top: 70px;
+    }
+    
+    
+    .play-text{
+        /* background-image: linear-gradient( rgb(252, 236, 241),  rgb(253, 253, 253)); */
+        background-image: url("./images/Group\ 14.png");
+        padding-bottom: 50px;
+    }
+    
+    .play-game-container{
+      flex-direction: column;
+     }
+    
+     .play-game-image{
+        width: 100%;
+        
+     }
+     
+     .play-game-image img{
+        height: 400px;
+        width: 400px;
+        padding: 40px;
+     }
+
+
+     .video-img-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+
+     .play-game-container{
+        display: flex;
+        width: 400px;
+        height: 70vh;
+     }
+
+
+     .img-2 img{
+        height: 300px;
+        width: 250px; 
+    }
+
+    
+
+
+}
+
+
+/* --------------------tablet section starts----------------------- */
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .nav-section{
+      
+        border: 2px solid green;
+        
+    }
+
+
+    .video-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+  
+     .play-game-container{
+        display: flex;
+        width: 800px;
+     }
+
+
+     .img-2 img{
+        height: 300px;
+        width: 250px; 
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- Desktop version --------------------*/
+
+@media screen and (min-width: 960px) and (max-width: 1440px){
+    .play-container{
+         background-image: url("./images/Group\ 14.png"); 
+        /* background-image: linear-gradient( rgb(252, 236, 241),  rgb(253, 253, 253)); */
+        
+        }
+
+        .play-game-text{
+            width: 50%;
+               align-items: center;
+              justify-content: center;
+              text-align: center;
+            padding-right: 150px;
+            padding-top: 60px;
+              text-align-last: right; 
+           }
+           
+        
+}
