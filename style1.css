@@ -4,7 +4,7 @@
     .nav-section{
         flex-direction: column;
         height: 30vh;
-        border: 2px solid red;
+       
     }
     .icon-name{
       margin:0 auto;
@@ -98,9 +98,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
     .nav-section{
-      
-        border: 2px solid green;
-        
+     
     }
 
 
